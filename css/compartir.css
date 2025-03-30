@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.content {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    width: 86%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.punts {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#baixa{
+    margin-bottom: 70px;
+}
+
+#nom{
+    margin-top: 50px;
+}
+
+.punts h2 {
+    font-size: 35px;
+    margin: 0px;
+    color: #333;
+}
+
+.punts h3 {
+    margin-top: 50px;
+}
+
+.points {
+    font-size: 35px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.point {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.win-more {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.guanya{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 0px;
+}
+
+.invite-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin-left: 27%;
+    margin-bottom: 20px;
+}
+
+.invite-button:hover {
+    background-color: red;
+}
+
+.help-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+}
